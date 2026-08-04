@@ -1,0 +1,32 @@
+{
+  "name": "telegram-orderkuota-pakasir",
+  "version": "1.0.0",
+  "description": "Telegram Bot for VPS Linode ordering with Pakasir payment gateway",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "axios": "^1.6.2",
+    "node-fetch": "^2.7.0",
+    "node-telegram-bot-api": "^0.64.0",
+    "qrcode": "^1.5.3",
+    "ssh2": "^1.15.0",
+    "@resvg/resvg-js": "^2.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "vps",
+    "linode",
+    "pakasir",
+    "qris"
+  ],
+  "author": "",
+  "license": "ISC"
+}
